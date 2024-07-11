@@ -4,15 +4,15 @@
 The primary objective of this project is to develop a machine learning model to predict customer churn for Reder Telecom. By identifying customers at risk of leaving, the company can take proactive measures to retain them and reduce churn rates.
 ## Dataset:
 The dataset contains customer-related information, including demographics, subscription details, engagement metrics, service interactions, payment history, and marketing communication data. Key features include:
-•	Demographics: Age, Gender
-•	Subscription Details: SubscriptionPlan, SubscriptionDuration
-•	Engagement Metrics: WebsitePageViews, WebsiteTimeSpent, EngagementMetricsLogins, EngagementMetricsFrequency
-•	Service Interactions: ServiceInteractions_Call, ServiceInteractions_Email, ServiceInteractions_Chat
-•	Payment History: PaymentHistoryNoOfLatePayments
-•	Marketing Communication: MarketingCommunicationNoOfEmails, MarketingCommunicationOpenClickDiff, MarketingCommunicationSentOpenDiff
-•	Feedback: Net Promoter Score (NPS), FeedbackRating
-•	Clickstream Data: ClickstreamData_Click, ClickstreamData_Add to Cart, ClickstreamData_Search
-•	Purchase Details: PurchasedFrequency, PurchasedValue
+- Demographics: Age, Gender
+- Subscription Details: SubscriptionPlan, SubscriptionDuration
+- Engagement Metrics: WebsitePageViews, WebsiteTimeSpent, EngagementMetricsLogins, EngagementMetricsFrequency
+- Service Interactions: ServiceInteractions_Call, ServiceInteractions_Email, ServiceInteractions_Chat
+- Payment History: PaymentHistoryNoOfLatePayments
+- Marketing Communication: MarketingCommunicationNoOfEmails, MarketingCommunicationOpenClickDiff, MarketingCommunicationSentOpenDiff
+- Feedback: Net Promoter Score (NPS), FeedbackRating
+- Clickstream Data: ClickstreamData_Click, ClickstreamData_Add to Cart, ClickstreamData_Search
+- Purchase Details: PurchasedFrequency, PurchasedValue
 ## Methodology:
 1.	Data Preprocessing: Cleaning the dataset, handling missing values, and encoding categorical variables.
 - Gender encoding: Male = 0, Female = 1
